@@ -115,3 +115,5 @@ Tabs.Main4:AddButton({
 		}
 loadstring(game:HttpGet("https://raw.githubusercontent.com/AnhTuanDzai-Hub/Banana-Hub/refs/heads/main/Banana-Free.lua"))()
 	end
+	})
+	
