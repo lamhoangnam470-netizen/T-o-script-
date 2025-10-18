@@ -44,7 +44,7 @@ local Window = Fluent:CreateWindow({
 -- 📑 Các tab (mục chính)
 local Tabs = {
 	Main0 = Window:AddTab({ Title = "một số kênh🤓" }),  -- 👈 đổi tên tab 1
-	Main1 = Window:AddTab({ Title = "grow a gaden 🌱🌴🌵🌲" }),  -- 👈 đổi tên tab 2
+	Main1 = Window:AddTab({ Title = "một số script khác" }),  -- 👈 đổi tên tab 2
 	Main2 = Window:AddTab({ Title = "bran rót💩" }),     -- 👈 đổi tên tab 3
 	Main3 = Window:AddTab({ Title = "99 đêm🥷" }),        -- 👈 đổi tên tab 4
 	Main4 = Window:AddTab({ Title = "blox fruit🍎" }),    -- 👈 đổi tên tab 5
@@ -126,5 +126,29 @@ Tabs.Main5:AddButton({
 			Translator = true;      -- 👈 bật dịch sang tiếng Việt nếu có
 		}
 loadstring(game:HttpGet("https://raw.githubusercontent.com/mynamewendel-ctrl/Blessed-Hub-X-/refs/heads/main/Plants-Vs-Brainrots.lua"))()
+	end
+	})
+
+Tabs.Main1:AddButton({
+	Title = "script có những hành động người khác thấy đc",                             -- 👈 tên nút hiển thị
+	Description = "script này ngon á đủ chức năng cả😃",-- 👈 mô tả
+	Callback = function()
+		local Settings = {
+			JoinTeam = "Pirates";   -- 👈 team mặc định: Pirates hoặc Marines
+			Translator = true;      -- 👈 bật dịch sang tiếng Việt nếu có
+		}
+loadstring(game:HttpGet("https://raw.githubusercontent.com/7yd7/Hub/refs/heads/Branch/GUIS/Emotes.lua"))()
+	end
+	})
+
+Tabs.Main1:AddButton({
+	Title = "fly gui v3",                             -- 👈 tên nút hiển thị
+	Description = "script này ngon á đủ chức năng cả😃",-- 👈 mô tả
+	Callback = function()
+		local Settings = {
+			JoinTeam = "Pirates";   -- 👈 team mặc định: Pirates hoặc Marines
+			Translator = true;      -- 👈 bật dịch sang tiếng Việt nếu có
+		}
+loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Fly-gui-v3-30439"))()
 	end
 	})
